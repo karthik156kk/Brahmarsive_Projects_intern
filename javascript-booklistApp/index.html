@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>my Comic list application</title>
+
+    <link rel='stylesheet' href="https://bootswatch.com/5/minty/bootstrap.min.css">
+</head>
+<body>
+    <div id="container">
+        <h1 class="display-4 text-center">
+            <i class="fas fa-book-open"></i>
+            Karthik's Comic List
+        </h1>
+        <form id="book-form">
+            <div class='form-group'>
+                <label for='title'>Title</label>
+                <input type='text' id="title" class="form-control">
+            </div>
+            <div class='form-group'>
+                <label for='author'>Author</label>
+                <input type='text' id="author" class="form-control">
+            </div>
+            <div class='form-group'>
+                <label for='publications'>Publications</label>
+                <input type='text' id="publ" class="form-control">
+            </div>
+            <input type="submit" value="Add manga" class="btn btn-primary btn-block">
+        </form>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>publications</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+        </table>
+    </div>
+    <script src="https://kit.fontawesome.com/73b1c80b48.js" crossorigin="anonymous"></script>
+    <script src='main.js'></script>
+</body>
+</html>
