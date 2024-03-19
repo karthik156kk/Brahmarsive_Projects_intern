@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>About page</h1>
+    <p>The Current User of this website is 
+        {% if current_user.is_authenticated %}
+            {{current_user.username}}
+        {% else %}
+            Guest - Please Login
+        {% endif %}
+    </p>
+{% endblock %}
