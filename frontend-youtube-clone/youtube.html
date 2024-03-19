@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.jpg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/shorts.jpg">
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>For You</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="tags">
+        <button class="tag-for-u all-button">All</button>
+        <button class="tag-for-u">Gaming</button>
+        <button class="tag-for-u">Computer Programming</button>
+        <button class="tag-for-u">Music</button>
+        <button class="tag-for-u">Mixes</button>
+        <button class="tag-for-u">Mythology</button>
+        <button class="tag-for-u">Podcast</button>
+        <button class="tag-for-u">Live</button>
+      </section>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                HTML & CSS Full Course - Beginner to Pro
+              </p>
+              <p class="video-author">
+                SuperSimpleDev
+              </p>
+              <p class="video-stats">
+                8.1M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Baldur's Gate 3: An Unexpected Adventure (feat. Elijah Wood & Sean Astin)
+              </p>
+              <p class="video-author">
+                Larin Studios
+              </p>
+              <p class="video-stats">
+                2.4M views &#183; 3 weeks ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+            <div class="video-time">9:13</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-3.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                There's an Even NUMBER greek god?
+              </p>
+              <p class="video-author">
+                Jake Doubleyoo
+              </p>
+              <p class="video-stats">
+                534k views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+            <div class="video-time">22:09</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Developers Blamed For The Post Office Scandal?
+              </p>
+              <p class="video-author">
+                Continuous Delivery
+              </p>
+              <p class="video-stats">
+                8k views &#183; 9hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+            <div class="video-time">11:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Learn Javascript With This ONE Project!
+              </p>
+              <p class="video-author">
+                Tech with Tim
+              </p>
+              <p class="video-stats">
+                519K views &#183; 10 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Why is Youtube Running So Slow
+              </p>
+              <p class="video-author">
+                penguinz0
+              </p>
+              <p class="video-stats">
+                1.6M views &#183; 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
